@@ -41,10 +41,20 @@
   border-bottom: none;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card-image img {
-  width: 100%;
+  height: 100%;
   transform: scale(1.1);
+}
+
+.side .card-image {
+  height: 135px;
+}
+.top-discounts .card-image {
+  height: 185px;
 }
 
 .card-info .shop {
