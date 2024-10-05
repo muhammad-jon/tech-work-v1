@@ -1,8 +1,10 @@
 import Faq from "./Faq/Faq";
+import TopDiscounts from "./TopDiscounts/TopDiscounts";
 
 const Main = () => {
   return (
     <div className="main">
+      <TopDiscounts />
       <div className="welcome">
         <h2>{"Добро пожаловать на сайт"}</h2>
         <p>

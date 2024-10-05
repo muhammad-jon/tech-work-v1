@@ -60,7 +60,7 @@
 .card-info .card-header {
   font-size: 18px;
   color: var(--black);
-  max-height: 46px;
+  min-height: 46px;
   overflow: hidden;
 }
 

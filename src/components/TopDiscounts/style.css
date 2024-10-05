@@ -1,0 +1,95 @@
+.top-discounts {
+  background-color: #f0f6f6;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+.top-discounts > h1 {
+  color: #248888;
+  padding-bottom: 19px;
+  border-bottom: 1px solid lightgray;
+}
+
+.carousel .card {
+  max-width: 290px;
+}
+
+.carousel-items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.carousel {
+  position: relative;
+}
+.carousel > img {
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+}
+.carousel > img:nth-child(1) {
+  left: -6%;
+  top: 50%;
+}
+.carousel > img:nth-child(1)::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  z-index: 11;
+}
+.carousel > img:nth-child(2) {
+  left: 101%;
+  top: 50%;
+}
+
+.top-categories {
+  display: flex;
+  gap: 40px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.top-categories span {
+  font-size: 20px;
+  color: #001c1c;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+}
+.top-categories span.active {
+  color: #3c5858;
+}
+.top-categories span.active::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 8px;
+}
+.dots span {
+  width: 6px;
+  height: 6px;
+  background-color: #bedada;
+  border-radius: 50%;
+}
+.dots span:nth-child(2) {
+  width: 8px;
+  height: 8px;
+  background-color: #607282;
+  border-radius: 50%;
+}
