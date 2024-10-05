@@ -1,0 +1,17 @@
+.accoordion-header {
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 12px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.accoordion-text {
+  padding: 20px;
+  color: var(--gray);
+}
+.accordion {
+  width: 100%;
+}

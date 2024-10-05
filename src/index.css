@@ -26,6 +26,14 @@ h1 {
   background: #f0f6f6;
   padding: 20px;
   max-width: 290px;
+  width: 100%;
+}
+.side .subtitle {
+  color: var(--gray);
+  margin-top: 8px;
+}
+.main {
+  padding: 40px;
 }
 
 /* flex box */
@@ -38,4 +46,19 @@ h1 {
 }
 .items-center {
   align-items: center;
+}
+
+.welcome h2 {
+  margin-bottom: 16px;
+  font-size: 28px;
+  color: #023131;
+}
+.welcome > * {
+  margin-bottom: 12px;
+}
+.welcome p {
+  color: var(--gray);
+}
+.cursor-pointer {
+  cursor: pointer;
 }
