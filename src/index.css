@@ -1,0 +1,41 @@
+:root {
+  --green: #248888;
+  --gray: #607282;
+  --black: #001c1c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Play", sans-serif;
+}
+
+.container {
+  max-width: 1327px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #023131;
+}
+
+.side {
+  background: #f0f6f6;
+  padding: 20px;
+  max-width: 290px;
+}
+
+/* flex box */
+
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
