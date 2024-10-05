@@ -1,10 +1,10 @@
 /* card */
 
 .card {
-  margin-top: 20px;
-  background: white;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .card .time-up {
@@ -28,6 +28,7 @@
   border: 1px dashed var(--green);
   border-top: none;
   border-radius: 0 0 10px 10px;
+  background-color: white;
 }
 
 .card-info.active-card {
@@ -61,6 +62,7 @@
   font-size: 18px;
   color: var(--black);
   min-height: 46px;
+  max-height: 46px;
   overflow: hidden;
 }
 
@@ -102,4 +104,6 @@
   color: var(--gray);
   font-size: 14px;
   margin-top: 4px;
+  max-height: 20px;
+  overflow: hidden;
 }

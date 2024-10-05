@@ -7,7 +7,7 @@ function App() {
     <>
       <section>
         <div className="container">
-          <div className="flex">
+          <div className="wrap">
             <LeftSide />
             <Main />
           </div>

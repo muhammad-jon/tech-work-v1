@@ -12,9 +12,7 @@ const LeftSide = () => {
       </div>
       <div className="side-cards">
         {sideCards.map((el) => (
-          <div key={el.id}>
-            <Card info={el} />
-          </div>
+          <Card key={el.id} info={el} />
         ))}
       </div>
     </div>

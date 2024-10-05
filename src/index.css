@@ -31,21 +31,15 @@ h1 {
 .side .subtitle {
   color: var(--gray);
   margin-top: 8px;
+  margin-bottom: 20px;
+}
+.side-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .main {
   padding: 40px;
-}
-
-/* flex box */
-
-.flex {
-  display: flex;
-}
-.justify-center {
-  justify-content: center;
-}
-.items-center {
-  align-items: center;
 }
 
 .welcome h2 {
@@ -61,4 +55,51 @@ h1 {
 }
 .cursor-pointer {
   cursor: pointer;
+}
+.wrap {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrap {
+    display: block;
+  }
+  .side {
+    max-width: 100%;
+  }
+  .side-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+  .card .discount {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .top-categories {
+    overflow: scroll;
+  }
+  .carousel > img {
+    display: none;
+  }
+  .carousel {
+    overflow: scroll;
+  }
+  .carousel-items {
+    display: flex;
+    width: 100%;
+  }
+  .carousel-item {
+    min-width: 100%;
+  }
+
+  .main {
+    padding: 16px;
+  }
 }
