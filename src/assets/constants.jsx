@@ -5,10 +5,11 @@ import makro from "/images/makro.jpg";
 import gosty from "/images/gosty.jpg";
 import shosh from "/images/shosh.jpg";
 import petrovic from "/images/petrovic.jpg";
+import list from "/images/list.svg";
 
 export const navLinks = [
   {
-    icon: "",
+    icon: list,
     text: "Все предложения",
     link: "",
   },
