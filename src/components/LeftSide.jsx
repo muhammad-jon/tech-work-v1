@@ -1,4 +1,5 @@
 import { sideCards } from "../assets/constants";
+import Button from "./Button/Button";
 import Card from "./Card/Card";
 
 const LeftSide = () => {
@@ -15,6 +16,8 @@ const LeftSide = () => {
           <Card key={el.id} info={el} />
         ))}
       </div>
+      <br />
+      <Button>{"Показать все"}</Button>
     </div>
   );
 };

@@ -6,6 +6,34 @@ import gosty from "/images/gosty.jpg";
 import shosh from "/images/shosh.jpg";
 import petrovic from "/images/petrovic.jpg";
 
+export const navLinks = [
+  {
+    icon: "",
+    text: "Все предложения",
+    link: "",
+  },
+  {
+    icon: "",
+    text: "Скидки",
+    link: "",
+  },
+  {
+    icon: "",
+    text: "Акции",
+    link: "",
+  },
+  {
+    icon: "",
+    text: "Промокоды",
+    link: "",
+  },
+  {
+    icon: "",
+    text: "Кешбэк",
+    link: "",
+  },
+];
+
 export const sideCards = [
   {
     id: 1,
